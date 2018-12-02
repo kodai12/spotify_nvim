@@ -1,1 +1,1 @@
-# spotify-nvim
+# spotify_nvim
