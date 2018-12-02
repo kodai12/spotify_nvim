@@ -14,4 +14,4 @@ function! spotify_nvim#search_track(query)
 endfunction
 
 
-command! -nargs=1  SpSeaarch call spotify_nvim#search_track(<f-args>)
+command! -nargs=1  SpotifySearch call spotify_nvim#search_track(<f-args>)

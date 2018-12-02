@@ -1,4 +1,4 @@
-function! s:SpotifySearchBuffer(query, type)
+function! g:SpotifySearchBuffer(query, type)
     if buflisted('Spotify')
         bd Spotify
     endif

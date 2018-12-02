@@ -12,7 +12,7 @@ def search_track(query: str):
         item_list = []
         for item in items:
             item_list.append(item)
-            vim.command('call s:SpotifySearchBuffer("query-test", "Search")')
+            vim.command('call g:SpotifySearchBuffer("query-test", "Search")')
         return item_list
 
     else:
