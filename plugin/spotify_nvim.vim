@@ -4,7 +4,7 @@
 python import sys
 python import vim
 python sys.path.append(vim.eval('expand("<sfile>:p:h")'))
-python import rplugin.python3.track as spotify_nvim
+python import rplugin.python3.spotify_nvim.track as spotify_nvim
 
 " --------------------------------
 "  Define functions
